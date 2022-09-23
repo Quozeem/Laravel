@@ -10,7 +10,8 @@ use App\Models\Pizza;
 //use validator;
 class LoginController extends Controller
 {
-      /*
+     
+ /*
     |--------------------------------------------------------------------------
     | Login Controller
     |--------------------------------------------------------------------------
