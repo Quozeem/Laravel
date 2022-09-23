@@ -9,7 +9,6 @@ use App\Models\Pizza;
 //use validator;
 class LoginController extends Controller
 {
-     
 
  /*
     |--------------------------------------------------------------------------
@@ -30,6 +29,7 @@ class LoginController extends Controller
      * @var string
      */
     //protected $redirectTo = '/home';
+
 
     /**
      * Create a new controller instance.
