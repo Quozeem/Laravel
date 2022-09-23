@@ -20,7 +20,6 @@ class LoginController extends Controller
     | to conveniently provide its functionality to your applications.
     |
     */
-
     use AuthenticatesUsers;
 
     /**
@@ -73,7 +72,6 @@ class LoginController extends Controller
       //  return redirect('/pages/login')->with('error','The Credential you enter is not in our record');
   //  }
 }
-
 public function Role(Request $request){
     // Retrive Input
     $credential=$request->validate([
