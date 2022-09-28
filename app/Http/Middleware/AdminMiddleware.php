@@ -30,7 +30,7 @@ class AdminMiddleware
     //}
        // else{
         // if failed login
-       // return redirect('/pages/login');
+        return redirect('/pages/login');
  
 //} 
  
