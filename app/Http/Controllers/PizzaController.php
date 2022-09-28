@@ -23,7 +23,7 @@ class PizzaController extends Controller
       // $this->middleware('admin');
     }
    
-    
+
     public function index(){
          //get data from databse
         $pizza = [
