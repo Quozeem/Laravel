@@ -52,6 +52,7 @@ $pizzac= Pizza::latest()->get();
 return view('pages.pizzasloopdb',['pizzas' => $pizzac]);
         
     }
+
     public function create(){
        // $pizzac= Pizza::latest()->get();
         return view('pages.create');
