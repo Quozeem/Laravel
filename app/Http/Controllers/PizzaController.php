@@ -68,6 +68,7 @@ return view('pages.pizzasloopdb',['pizzas' => $pizzac]);
                    // return Response::json(array('msg' => 'false'));
              
             }
+
            public function passrest(Request $request){
            // Retrive Input
       $email=$request->validate([
