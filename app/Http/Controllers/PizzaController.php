@@ -237,6 +237,7 @@ return redirect('/pages/update')->with('thanks','Update Succussful');
              return redirect('dashboard')->with('thanks','Update Succussful');
           }
         
+
           public function jointable(){
             $data=Pizza::join('users','users.id', '=','pizzas.id')
             ->get(['pizzas.id','pizzas.base','pizzas.name','pizzas.price','users.email','users.password']);
