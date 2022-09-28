@@ -36,6 +36,7 @@ class PizzaController extends Controller
           // return 'Pizza!'; strings
  // return ['name' => 'veg pizzas','base' => 'classic']; json 
     }
+
     public function reset(){
       return  view('pages.reset');
     }
